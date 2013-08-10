@@ -16,6 +16,15 @@
 		04B10F2217B53F850021B2D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B10F2117B53F850021B2D7 /* Default.png */; };
 		04B10F2417B53F850021B2D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B10F2317B53F850021B2D7 /* Default@2x.png */; };
 		04B10F2617B53F850021B2D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B10F2517B53F850021B2D7 /* Default-568h@2x.png */; };
+		04B10F3917B5402E0021B2D7 /* MGBlockActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F2E17B5402E0021B2D7 /* MGBlockActionSheet.m */; };
+		04B10F3A17B5402E0021B2D7 /* MGBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F3017B5402E0021B2D7 /* MGBlockAlertView.m */; };
+		04B10F3B17B5402E0021B2D7 /* MGBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F3217B5402E0021B2D7 /* MGBadgeLabel.m */; };
+		04B10F3C17B5402E0021B2D7 /* MGCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F3417B5402E0021B2D7 /* MGCoreDataHelper.m */; };
+		04B10F3D17B5402E0021B2D7 /* MGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F3617B5402E0021B2D7 /* MGTableViewController.m */; };
+		04B10F3E17B5402E0021B2D7 /* MGToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F3817B5402E0021B2D7 /* MGToolbox.m */; };
+		04B10F4017B541230021B2D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B10F3F17B541230021B2D7 /* CoreData.framework */; };
+		04B10F4217B5412D0021B2D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B10F4117B5412D0021B2D7 /* QuartzCore.framework */; };
+		04B10F4617B541BC0021B2D7 /* Constans.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10F4517B541BC0021B2D7 /* Constans.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,22 @@
 		04B10F2117B53F850021B2D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		04B10F2317B53F850021B2D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04B10F2517B53F850021B2D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04B10F2D17B5402E0021B2D7 /* MGBlockActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBlockActionSheet.h; sourceTree = "<group>"; };
+		04B10F2E17B5402E0021B2D7 /* MGBlockActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBlockActionSheet.m; sourceTree = "<group>"; };
+		04B10F2F17B5402E0021B2D7 /* MGBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBlockAlertView.h; sourceTree = "<group>"; };
+		04B10F3017B5402E0021B2D7 /* MGBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBlockAlertView.m; sourceTree = "<group>"; };
+		04B10F3117B5402E0021B2D7 /* MGBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBadgeLabel.h; sourceTree = "<group>"; };
+		04B10F3217B5402E0021B2D7 /* MGBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBadgeLabel.m; sourceTree = "<group>"; };
+		04B10F3317B5402E0021B2D7 /* MGCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCoreDataHelper.h; sourceTree = "<group>"; };
+		04B10F3417B5402E0021B2D7 /* MGCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCoreDataHelper.m; sourceTree = "<group>"; };
+		04B10F3517B5402E0021B2D7 /* MGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTableViewController.h; sourceTree = "<group>"; };
+		04B10F3617B5402E0021B2D7 /* MGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTableViewController.m; sourceTree = "<group>"; };
+		04B10F3717B5402E0021B2D7 /* MGToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGToolbox.h; sourceTree = "<group>"; };
+		04B10F3817B5402E0021B2D7 /* MGToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGToolbox.m; sourceTree = "<group>"; };
+		04B10F3F17B541230021B2D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04B10F4117B5412D0021B2D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04B10F4417B541BC0021B2D7 /* Constans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constans.h; sourceTree = "<group>"; };
+		04B10F4517B541BC0021B2D7 /* Constans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constans.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B10F4217B5412D0021B2D7 /* QuartzCore.framework in Frameworks */,
+				04B10F4017B541230021B2D7 /* CoreData.framework in Frameworks */,
 				04B10F1017B53F850021B2D7 /* UIKit.framework in Frameworks */,
 				04B10F1217B53F850021B2D7 /* Foundation.framework in Frameworks */,
 				04B10F1417B53F850021B2D7 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +95,8 @@
 		04B10F0E17B53F850021B2D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04B10F4117B5412D0021B2D7 /* QuartzCore.framework */,
+				04B10F3F17B541230021B2D7 /* CoreData.framework */,
 				04B10F0F17B53F850021B2D7 /* UIKit.framework */,
 				04B10F1117B53F850021B2D7 /* Foundation.framework */,
 				04B10F1317B53F850021B2D7 /* CoreGraphics.framework */,
@@ -80,6 +109,8 @@
 			children = (
 				04B10F1E17B53F850021B2D7 /* AppDelegate.h */,
 				04B10F1F17B53F850021B2D7 /* AppDelegate.m */,
+				04B10F4317B541960021B2D7 /* Constants */,
+				04B10F2C17B53F9A0021B2D7 /* MGToolbox */,
 				04B10F1617B53F850021B2D7 /* Supporting Files */,
 			);
 			path = StudentRelationshipApplication;
@@ -97,6 +128,34 @@
 				04B10F2517B53F850021B2D7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B10F2C17B53F9A0021B2D7 /* MGToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				04B10F2D17B5402E0021B2D7 /* MGBlockActionSheet.h */,
+				04B10F2E17B5402E0021B2D7 /* MGBlockActionSheet.m */,
+				04B10F2F17B5402E0021B2D7 /* MGBlockAlertView.h */,
+				04B10F3017B5402E0021B2D7 /* MGBlockAlertView.m */,
+				04B10F3117B5402E0021B2D7 /* MGBadgeLabel.h */,
+				04B10F3217B5402E0021B2D7 /* MGBadgeLabel.m */,
+				04B10F3317B5402E0021B2D7 /* MGCoreDataHelper.h */,
+				04B10F3417B5402E0021B2D7 /* MGCoreDataHelper.m */,
+				04B10F3517B5402E0021B2D7 /* MGTableViewController.h */,
+				04B10F3617B5402E0021B2D7 /* MGTableViewController.m */,
+				04B10F3717B5402E0021B2D7 /* MGToolbox.h */,
+				04B10F3817B5402E0021B2D7 /* MGToolbox.m */,
+			);
+			name = MGToolbox;
+			sourceTree = "<group>";
+		};
+		04B10F4317B541960021B2D7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				04B10F4417B541BC0021B2D7 /* Constans.h */,
+				04B10F4517B541BC0021B2D7 /* Constans.m */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +193,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 04B10F0317B53F850021B2D7;
 			productRefGroup = 04B10F0D17B53F850021B2D7 /* Products */;
@@ -166,6 +226,13 @@
 			files = (
 				04B10F1C17B53F850021B2D7 /* main.m in Sources */,
 				04B10F2017B53F850021B2D7 /* AppDelegate.m in Sources */,
+				04B10F3917B5402E0021B2D7 /* MGBlockActionSheet.m in Sources */,
+				04B10F3A17B5402E0021B2D7 /* MGBlockAlertView.m in Sources */,
+				04B10F3B17B5402E0021B2D7 /* MGBadgeLabel.m in Sources */,
+				04B10F3C17B5402E0021B2D7 /* MGCoreDataHelper.m in Sources */,
+				04B10F3D17B5402E0021B2D7 /* MGTableViewController.m in Sources */,
+				04B10F3E17B5402E0021B2D7 /* MGToolbox.m in Sources */,
+				04B10F4617B541BC0021B2D7 /* Constans.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +347,7 @@
 				04B10F2B17B53F850021B2D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
